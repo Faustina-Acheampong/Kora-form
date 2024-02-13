@@ -42,7 +42,7 @@ body {
     padding-top: 10px;
 }
 .textarea::placeholder {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .select {
     cursor: pointer;
@@ -55,6 +55,7 @@ body {
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .button {
