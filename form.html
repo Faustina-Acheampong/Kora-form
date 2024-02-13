@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <title>Inquiry Form</title>
+</head>
+<body>
+    <main class="screen">
+        <form action="#" class="form" autocomplete="off">
+            <h1 class="title">Inquire about a Kora Membership</h1>
+            <label for="name" class="label"> Full Name<span class="req">*</span></label>
+			<input type="text" name="name" id="name" class="input-space">
+            <label for="email" class="label">Email<span class="req">*</span></label>
+			<input type="email" name="email" id="email" class="input-space">
+            <label for="city" class="label">City</label>
+            <input type="text" name="city" id="city" class="input-space">
+            <label for="phone" class="label">Phone</label>
+            <input type="tel" name="phone" id="phone" class="input-space">
+            <div class="select-wrapper">
+                <label for="service" class="label">Which services are you most interested in?</label>
+                <select name="service" class="select" id="service">
+                    <option value="concierge">Concierge</option> 
+                    <option value="dining">Dining</option>
+                    <option value="event access">Event Access</option>
+                    <option value="lifestyle">Lifestyle</option>
+                    <option value="travel">Travel</option>
+                      
+                </select>
+            </div>
+            <label class="label comment-box">Message</label> 
+                <div class="comment-text"></div>
+                <textarea name="message" cols="50" rows="4" class="textarea" placeholder="Let us know how we can help you..."></textarea>
+            <div class="checkbox-container">
+                <label class="checkbox-label">
+                        <input type="checkbox" checked>    
+                        <div class="input-title">I would like to subscribe to the Kora Newsletter</div>
+                </label>
+            </div> 
+            <button type="send" class="button">SEND MESSAGE</button>   
+        </form>
+    </main>
+</body>
+</html>
