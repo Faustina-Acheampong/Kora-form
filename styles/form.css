@@ -37,6 +37,9 @@ body {
     border-radius: 4px; 
     font-size: 16px;  
 } 
+.input-space:hover {
+    background-color: rgb(220, 200, 200);
+}
 
 .textarea {
     padding-top: 10px;
